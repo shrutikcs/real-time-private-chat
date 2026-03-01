@@ -7,15 +7,19 @@ A private, self-destructing chat room. Messages disappear. No logs. No history.
 ![Tailwind](https://img.shields.io/badge/Tailwind-4-38bdf8?style=flat-square&logo=tailwindcss)
 ![Upstash](https://img.shields.io/badge/Upstash-Redis-00e9a3?style=flat-square&logo=redis)
 
-## ✨ Features
+## Features
 
-- **Private Rooms** — Create secure chat rooms with unique IDs
-- **Self-Destructing** — Messages auto-delete when the room expires
-- **Real-time** — Instant message delivery with Upstash Realtime
-- **Anonymous** — Random usernames, no accounts needed
-- **Room Destruction** — Manually destroy rooms and all messages instantly
+- **Private Rooms:** Create secure chat rooms with unique IDs
+- **Self-Destructing:** Messages auto-delete when the room expires
+- **Real-time:** Instant message delivery with Upstash Realtime
+- **Anonymous:** Random usernames, no accounts needed
+- **Room Destruction:** Manually destroy rooms and all messages instantly
 
-## 🛠️ Tech Stack
+## High-Level Flow
+
+![Sequence Diagram](public/flow.png)
+
+## Tech Stack
 
 - **Framework:** Next.js 16 (App Router)
 - **Runtime:** Bun
@@ -24,7 +28,7 @@ A private, self-destructing chat room. Messages disappear. No logs. No history.
 - **Real-time:** Upstash Realtime
 - **Styling:** Tailwind CSS 4
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -61,7 +65,7 @@ A private, self-destructing chat room. Messages disappear. No logs. No history.
 
 5. Open [http://localhost:3000](http://localhost:3000)
 
-## 📄 License
+## License
 
 MIT
 
